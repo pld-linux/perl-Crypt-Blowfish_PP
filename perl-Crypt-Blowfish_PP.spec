@@ -38,7 +38,7 @@ sieci± Feistela i operuje na 64-bitowym bloku.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
