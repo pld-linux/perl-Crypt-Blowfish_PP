@@ -6,7 +6,7 @@ Summary(pl):	Modu³ Perla Crypt::Blowfish_PP - implementacja algorytmu Blowfish w
 Name:		perl-Crypt-Blowfish_PP
 Version:	1.12
 Release:	2
-License:	GPL/Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6bf7dc80967eaf3047b67b26b015267d
