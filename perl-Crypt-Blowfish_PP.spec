@@ -5,12 +5,12 @@ Summary:	Crypt::Blowfish_PP Perl module - pure Perl Blowfish alghoritm implement
 Summary(pl):	Modu³ Perla Crypt::Blowfish_PP - implementacja algorytmu Blowfish w samym Perlu
 Name:		perl-Crypt-Blowfish_PP
 Version:	1.12
-Release:	1
+Release:	2
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
