@@ -36,7 +36,7 @@ sieci± Feistela i operuje na 64-bitowym bloku.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
