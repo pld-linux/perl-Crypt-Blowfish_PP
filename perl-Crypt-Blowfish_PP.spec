@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	Blowfish_PP
 Summary:	Crypt::Blowfish_PP Perl module - pure Perl Blowfish alghoritm implementation
-Summary(pl):	Modu≥ Perla Crypt::Blowfish_PP - implementacja algorytmu Blowfish w samym Perlu
+Summary(pl.UTF-8):   Modu≈Ç Perla Crypt::Blowfish_PP - implementacja algorytmu Blowfish w samym Perlu
 Name:		perl-Crypt-Blowfish_PP
 Version:	1.12
 Release:	3
@@ -24,14 +24,14 @@ Blowfish as fast as it is. The key is anywhere between 64 and 448 bits
 transformation itself is a 16-round Feistel Network, and operates on a
 64 bit block.
 
-%description -l pl
-Modu≥ Crypt::Blowfish_PP pozwala na korzystanie z algorytmu
-szyfrowania Blowfish w samym Perlu. Implementacja jest w pe≥ni
-zorientowana obiektowo, jako øe potrzeba sporo rzeczy zwi±zanych z
-kontekstem, aby Blowfish dzia≥a≥ tak szybko jak dzia≥a. Klucza moøe
-dowolnej d≥ugo∂ci miÍdzy 64 a 448 bitÛw (8 i 56 bajtÛw) i powinien byÊ
-przekazany jako spakowany ≥aÒcuch. Sama transformacja jest 16-krokow±
-sieci± Feistela i operuje na 64-bitowym bloku.
+%description -l pl.UTF-8
+Modu≈Ç Crypt::Blowfish_PP pozwala na korzystanie z algorytmu
+szyfrowania Blowfish w samym Perlu. Implementacja jest w pe≈Çni
+zorientowana obiektowo, jako ≈ºe potrzeba sporo rzeczy zwiƒÖzanych z
+kontekstem, aby Blowfish dzia≈Ça≈Ç tak szybko jak dzia≈Ça. Klucza mo≈ºe
+dowolnej d≈Çugo≈õci miƒôdzy 64 a 448 bit√≥w (8 i 56 bajt√≥w) i powinien byƒá
+przekazany jako spakowany ≈Ça≈Ñcuch. Sama transformacja jest 16-krokowƒÖ
+sieciƒÖ Feistela i operuje na 64-bitowym bloku.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
