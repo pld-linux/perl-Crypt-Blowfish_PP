@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	Blowfish_PP
 Summary:	Crypt::Blowfish_PP Perl module - pure Perl Blowfish alghoritm implementation
-Summary(pl.UTF-8):   Moduł Perla Crypt::Blowfish_PP - implementacja algorytmu Blowfish w samym Perlu
+Summary(pl.UTF-8):	Moduł Perla Crypt::Blowfish_PP - implementacja algorytmu Blowfish w samym Perlu
 Name:		perl-Crypt-Blowfish_PP
 Version:	1.12
 Release:	3
