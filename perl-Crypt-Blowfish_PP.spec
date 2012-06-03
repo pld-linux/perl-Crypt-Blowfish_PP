@@ -8,8 +8,9 @@ Version:	1.12
 Release:	4
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Crypt/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6bf7dc80967eaf3047b67b26b015267d
+URL:		http://search.cpan.org/dist/Crypt-Blowfish_PP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -54,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG README
 %{perl_vendorlib}/Crypt/Blowfish_PP.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Crypt::Blowfish_PP.3pm*
