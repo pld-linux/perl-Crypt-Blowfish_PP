@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	Blowfish_PP
 Summary:	Crypt::Blowfish_PP Perl module - pure Perl Blowfish alghoritm implementation
